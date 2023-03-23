@@ -1,0 +1,10 @@
+.AboutMeContainer {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.AboutMeContainer svg {
+  width: 80%;
+}/*# sourceMappingURL=AboutMe.module.css.map */

@@ -1,0 +1,44 @@
+.Tile {
+  display: flex;
+  margin-bottom: 2vh;
+  width: 100%;
+  border-top-left-radius: 4vh;
+  border-bottom-right-radius: 4vh;
+  // align-items: center;
+  & > img {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 60%;
+  }
+  & > section {
+    // min-width: max-content;
+    width: 40%;
+    & > h2 {
+      margin-top: 5vh;
+      font-size: 4vmax;
+      color: #fff;
+    }
+  }
+  @media screen and (min-width: 900px) {
+    & section {
+      background: transparent !important;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+
+    & > img {
+      width: 95%;
+    }
+    & section {
+      width: 100%;
+      padding: 0 2vh;
+      border-bottom-right-radius: 4vh;
+      & > h2 {
+        margin-top: 1vh;
+        font-size: 6vmin;
+      }
+    }
+  }
+}
