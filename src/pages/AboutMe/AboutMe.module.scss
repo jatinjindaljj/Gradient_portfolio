@@ -1,10 +1,73 @@
 .AboutMeContainer {
   width: 100%;
-  height: 30vh;
+  // height: 30vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  // & svg {
+  //   width: 80%;
+  // }
+}
+.AboutMeHero {
+  width: 95%;
+  padding: 5vmin;
+  position: relative;
+  border-radius: 1vh;
+  border: 1px solid grey;
+  min-height: 25vmin;
+}
+.clipcontainer {
+  width: fit-content;
+  & > h1 {
+    // display: flex;
+    width: fit-content;
+    background: linear-gradient(90deg, #fc00ff 0%, #00dbde 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 10vmin;
+  }
+  .subheading {
+    background: linear-gradient(90deg, #fc00ff 0%, #00dbde 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    font-weight: bolder;
+    font-size: 3vmin;
+  }
+
+  .subsubheading {
+    background: linear-gradient(90deg, #fc00ff 0%, #00dbde 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    font-weight: bolder;
+    font-size: 2vmin;
+  }
+}
+.clip {
+  color: rgba(0, 0, 0, 0);
+}
+
+.svgbg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20vmin;
+  height: 20vmin;
   & svg {
-    width: 80%;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.highlights {
+  margin: 2vh 0;
+  gap: 2vh;
+  width: 95%;
+  display: grid;
+  grid-template-columns: auto auto;
+  @media screen and (max-width: 900px) {
+    grid-template-columns: auto;
   }
 }

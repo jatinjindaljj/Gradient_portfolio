@@ -119,3 +119,54 @@ export const ProgressBackground = () => (
     </defs>
   </svg>
 );
+
+export const GreyCirclesBackground = () => (
+  <svg
+    width="210"
+    height="211"
+    viewBox="0 0 210 211"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <ellipse
+      cx="152.001"
+      cy="52.7586"
+      rx="152.001"
+      ry="157.759"
+      fill="#D9D9D9"
+      fill-opacity="0.2"
+    />
+    <ellipse
+      cx="152.377"
+      cy="53.148"
+      rx="109.929"
+      ry="114.093"
+      fill="#D9D9D9"
+      fill-opacity="0.15"
+    />
+    <ellipse
+      cx="152.377"
+      cy="53.148"
+      rx="109.929"
+      ry="114.093"
+      fill="#D9D9D9"
+      fill-opacity="0.05"
+    />
+    <ellipse
+      cx="165.694"
+      cy="36.0086"
+      rx="77.3576"
+      ry="80.2878"
+      fill="#D9D9D9"
+      fill-opacity="0.1"
+    />
+    <ellipse
+      cx="165.694"
+      cy="36.0086"
+      rx="77.3576"
+      ry="80.2878"
+      fill="#D9D9D9"
+      fill-opacity="0.46"
+    />
+  </svg>
+);

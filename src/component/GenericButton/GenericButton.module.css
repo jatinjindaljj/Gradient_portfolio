@@ -6,12 +6,12 @@
   align-items: center;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 1.6vh 2vh;
+  padding: 1.6vh 3.5vh;
   text-decoration: none;
   border-top-left-radius: 2vh;
   border-bottom-right-radius: 2vh;
   font-weight: bolder;
-  font-size: 1vmax;
+  font-size: 4vmin;
   margin: 2vh;
 }
 .buttonContainer:hover {
@@ -26,7 +26,7 @@
     padding: 1vh 1.5vh;
   }
   .buttonContainer:hover {
-    box-shadow: 0px 0px 0 transparent;
+    box-shadow: 2.5px 2.5px 0 #fff;
   }
 }
 
@@ -48,6 +48,7 @@
 .active {
   border: 1px solid #fff;
   color: #fff;
+  box-shadow: 5px 5px 0 #fff;
 }
 
 .iconContainer {

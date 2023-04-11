@@ -18,7 +18,7 @@ const CaseStudyTile = ({
       <img src={image} alt="" color={"blue"} />
       <section style={{ background: sectionBackground }}>
         <h2>{heading}</h2>
-        <GenericButton name={buttonText} url={""} arrow />
+        <GenericButton name={buttonText} url={""} arrow small />
       </section>
     </div>
   );
